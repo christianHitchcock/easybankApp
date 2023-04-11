@@ -6,7 +6,7 @@
 }
 body {
     font-family: 'Public Sans', sans-serif;
-    overflow: scroll;
+    overflow: hidden;
     background: hsl(0, 0%, 98%);
 }
 .logo {
@@ -17,7 +17,7 @@ nav {
     justify-content: space-between;
     flex-direction: row;
     position: absolute;
-    width: 100%;
+    width: 400px;
     height: 50px;
     z-index: 10;
     background: hsl(0, 0%, 98%);
@@ -72,6 +72,8 @@ nav {
 }
 .image1 {
   position: relative;
+  width: 400px;
+  overflow: hidden;
 }
 
 
