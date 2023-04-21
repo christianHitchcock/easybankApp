@@ -333,7 +333,9 @@ footer blockquote {
   .logo {
     margin-left: 190px;
   }
-
+  #openicon {
+    display: none;
+}
   .img-box {
     display: flex;
     justify-content: space-around;
